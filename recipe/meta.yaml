@@ -39,6 +39,7 @@ test:
   requires:
     - pip
     - pytest
+    - pytest-mock
     - pytest-timeout
   source_files:
     - tests
