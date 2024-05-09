@@ -1,5 +1,5 @@
 {% set name = "hipscat" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/astronomy-commons/hipscat/archive/v{{ version }}.tar.gz
-  sha256: fcbd1144917efe3ad5d2b0565b85ca20b4a1f35b1a9de7bfb400b227c9b781c6
+  sha256: 0c6935b439c08e4bb5a72d69a04ed16ab110935a9370130d10f84b6c28556569
 
 build:
   noarch: python
@@ -23,8 +23,9 @@ requirements:
   run:
     - python >=3.9
     - astropy
-    - fsspec <=2023.9.2
+    - fsspec >=2023.10.0
     - healpy
+    - mocpy
     - numba
     - pandas
     - pyarrow >=10.0.0
