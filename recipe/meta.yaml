@@ -23,8 +23,9 @@ requirements:
   run:
     - python >=3.9
     - astropy
-    - fsspec <=2023.9.2
+    - fsspec >=2023.10.0
     - healpy
+    - mocpy
     - numba
     - pandas
     - pyarrow >=10.0.0
