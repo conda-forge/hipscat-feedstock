@@ -1,5 +1,5 @@
 {% set name = "hipscat" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/astronomy-commons/hipscat/archive/v{{ version }}.tar.gz
-  sha256: 0c6935b439c08e4bb5a72d69a04ed16ab110935a9370130d10f84b6c28556569
+  sha256: 4112fa0694e16877820aff2982fde5a553ce92e82359ae39c328c5b1de35b1e4
 
 build:
   noarch: python
