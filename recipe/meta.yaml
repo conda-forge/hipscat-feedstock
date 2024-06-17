@@ -28,7 +28,7 @@ requirements:
     - healpy
     - mocpy
     - numba
-    - numpy < 2
+    - numpy <2
     - pandas
     - pyarrow >=10.0.0
     - typing-extensions >=4.3.0
