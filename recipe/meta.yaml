@@ -26,7 +26,7 @@ requirements:
     - astropy
     - fsspec >=2023.10.0
     - healpy
-    - matplotlib >=3.3,<3.9
+    - matplotlib-base >=3.3,<3.9
     - mocpy
     - numba >=0.58
     - numpy <2
