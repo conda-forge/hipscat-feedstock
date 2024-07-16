@@ -26,11 +26,12 @@ requirements:
     - astropy
     - fsspec >=2023.10.0
     - healpy
+    - matplotlib >=3.3,<3.9
     - mocpy
-    - numba
+    - numba >=0.58
     - numpy <2
     - pandas
-    - pyarrow >=10.0.0
+    - pyarrow >=14.0.1
     - typing-extensions >=4.3.0
 
 test:
